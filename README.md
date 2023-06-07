@@ -1,18 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <style>
-      h1 {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-   p {
-    font-size: 16px;
-    margin-bottom: 10px;
-   }
-    </style>
-   </head>
 <body>
     <h1 align='center'>RTOS</h1>
     <h2 align='center'>Introdução ao RTOS</h2>
@@ -20,6 +7,7 @@
     <br>Os RTOS são amplamente utilizados em uma variedade de setores, incluindo automação industrial, aviação, medicina, sistemas de controle, automóveis e dispositivos eletrônicos em geral. Eles desempenham um papel crucial em sistemas onde a pontualidade é essencial e o não cumprimento de prazos pode levar a consequências graves, como falhas de segurança, perda de vidas ou danos materiais.</p>
     <h2 align='center'>MultiTarefa  com FreeRTOS</h2>
     <p align ='justify'>
+    O FreeRTOS é um sistema operacional em tempo real muito popular para sistemas embarcados. Ele permite a execução simultânea e eficiente de várias tarefas, com prioridades diferentes. Além disso, oferece mecanismos de sincronização para compartilhar recursos entre as tarefas. É uma ótima opção para desenvolver aplicativos robustos e eficientes em sistemas embarcados.
     </p>
     <h2 align='center'>Sincronização de Tarefas</h2>
     <p align ='justify'>A sincronização de tarefas em um ambiente de produção é crucial para garantir o compartilhamento seguro de recursos e evitar conflitos. Em um sistema onde várias tarefas estão em execução simultaneamente, a sincronização evita condições de corrida, garantindo que os recursos sejam acessados de maneira controlada. Além disso, a sincronização permite definir a ordem correta de execução das tarefas, garantindo que dependências e pré-requisitos sejam atendidos, o que é fundamental para alcançar resultados corretos e consistentes.
@@ -29,7 +17,7 @@
  <h2 align='center'>Reações baseadas nas condições</h2>
  <h2>Descrição do Código</h2>
 
-  <h1>Este é um exemplo de código em C++ que utiliza um sistema operacional em tempo real (RTOS) para controlar um display LCD e piscar LEDs com base na temperatura lida por um sensor.</h1>
+  <p>Este é um exemplo de código em C++ que utiliza um sistema operacional em tempo real (RTOS) para controlar um display LCD e piscar LEDs com base na temperatura lida por um sensor.</p>
   <h2>1º PARTE - Descrição</h2>
   <pre><code>
 #include &lt;Arduino.h&gt;
